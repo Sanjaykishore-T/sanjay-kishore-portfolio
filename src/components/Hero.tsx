@@ -13,7 +13,7 @@ const Hero = () => {
     { icon: Github, href: "#", label: "GitHub" }
   ];
 
-  const scrollToSection = (href) => {
+  const scrollToSection = (href: string) => {
     const element = document.querySelector(href);
     element?.scrollIntoView({ behavior: 'smooth' });
   };
